@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  font-size: 2em;
+  text-align: center;
+  line-height: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+#logo1 {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
+
+#logo2 {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+}
+
+nav ul {
+  background: #444;
+  overflow: hidden;
+  color: white;
+}
+
+nav ul li {
+  float: left;
+  display: inline;
+  padding: 14px;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+#donate-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button#donate {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button#donate:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.news-container {
+  text-align: center;
+}
+
+.article {
+  background-color: #f1f1f1;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+}
+
+.article img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.contact-icons a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-icons a img:hover {
+  transform: scale(1.2) rotate(360deg);
+}
